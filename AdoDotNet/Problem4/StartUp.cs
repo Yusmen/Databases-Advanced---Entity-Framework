@@ -22,7 +22,6 @@ namespace Problem4
             using (SqlConnection connection = new SqlConnection(Configuration.ConnectionString))
             {
 
-                connection.Open();
 
                 int? id = GetTownByName(townName, connection);
 
@@ -33,7 +32,7 @@ namespace Problem4
 
                 id = GetTownByName(townName, connection);
 
-                AddMinion(connection, minionName, age, id,villainName);
+                AddMinion(connection, minionName, age, id, villainName);
 
                 int? villainId = GetVillainByName(connection, villainName);
 
@@ -102,7 +101,7 @@ namespace Problem4
 
         }
 
-        private static void AddMinion(SqlConnection connection, string minionName, int age, int? id,string villainName)
+        private static void AddMinion(SqlConnection connection, string minionName, int age, int? id, string villainName)
         {
             string insertMinionSql = "INSERT INTO Minions (Name, Age, TownId) VALUES (@name, @age, @townId)";
 
@@ -116,7 +115,7 @@ namespace Problem4
             }
 
             Console.WriteLine($"Successfully added {minionName} to be minion of {villainName}.");
-            
+
 
         }
 
@@ -128,7 +127,7 @@ namespace Problem4
             {
                 command.Parameters.AddWithValue("@townName", townName);
 
-                return (int?)command.ExecuteScalar(); 
+                return (int?)command.ExecuteScalar();
 
             }
 

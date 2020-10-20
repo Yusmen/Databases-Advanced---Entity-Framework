@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj": {}
+    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj": {
+    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj",
         "projectName": "AdoDotNet",
-        "projectPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj",
+        "projectPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\AdoDotNet\\AdoDotNet\\AdoDotNet.csproj",
         "packagesPath": "C:\\Users\\Yusmen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AdoDotNet\\AdoDotNet\\obj\\",
+        "outputPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\AdoDotNet\\AdoDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yusmen\\AppData\\Roaming\\NuGet\\NuGet.Config",

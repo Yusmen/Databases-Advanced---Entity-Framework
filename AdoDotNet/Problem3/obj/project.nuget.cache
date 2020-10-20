@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pMz2FusfWzunrYUpc0vBKqfN7/gjOzS7a05L15vyFud1/2KnO6c3/b17j7sjK6rovii6FJJTFbLe7uAsnQAMfA==",
+  "dgSpecHash": "ORR25yKVEwQyxkuMFZUZlm6FOIKuZNqNQf7ouuT2rrh89KyDIDzklet4HYFA4x4foLvLCVpJbTL8n3tW8X9G9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AdoDotNet\\Problem3\\Problem3.csproj",
+  "projectFilePath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\AdoDotNet\\Problem3\\Problem3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusmen\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Yusmen\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
