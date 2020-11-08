@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ElCAVT1jVG6pMR/XEjLFc+TmC+xWXtm9Wrw6C3/MAonFU8aaXpCjXloL+/JYAdwlJ553TZx0/vP2ToPIdFfU4g==",
+  "dgSpecHash": "W9hLXnwsXhp5yetOTEwoUS86UQfasXE3auOKxwh/09Qg4NMUag3EnXHbbEnSXqbXInFESoW2KTu6O4fL89Qp/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AllSolutionsOfProblems\\SoftUni\\SoftUni\\SoftUni.csproj",
+  "projectFilePath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\SoftUni\\SoftUni\\SoftUni.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusmen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Yusmen\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.0\\microsoft.entityframeworkcore.2.2.0.nupkg.sha512",

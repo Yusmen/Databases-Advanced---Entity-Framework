@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AllSolutionsOfProblems\\SoftUni\\SoftUni\\SoftUni.csproj": {}
+    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\SoftUni\\SoftUni\\SoftUni.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AllSolutionsOfProblems\\SoftUni\\SoftUni\\SoftUni.csproj": {
+    "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\SoftUni\\SoftUni\\SoftUni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AllSolutionsOfProblems\\SoftUni\\SoftUni\\SoftUni.csproj",
+        "projectUniqueName": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\SoftUni\\SoftUni\\SoftUni.csproj",
         "projectName": "SoftUni",
-        "projectPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AllSolutionsOfProblems\\SoftUni\\SoftUni\\SoftUni.csproj",
+        "projectPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\SoftUni\\SoftUni\\SoftUni.csproj",
         "packagesPath": "C:\\Users\\Yusmen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\AllSolutionsOfProblems\\SoftUni\\SoftUni\\obj\\",
+        "outputPath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\SoftUni\\SoftUni\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yusmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
