@@ -13,10 +13,51 @@ namespace SoftUni
         {
             using (var softUniContext = new SoftUniContext())
             {
-                Console.WriteLine(GetEmployee147(softUniContext));
+                Console.WriteLine(GetDepartmentsWithMoreThan5Employees(softUniContext));
+                
             }
 
 
+        }
+
+        public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var departments = context.Departments
+                .Where(x => x.Employees.Count > 5)
+                .OrderBy(x => x.Employees.Count)
+                .ThenBy(x => x.Name)
+                .Select(x => new
+                {
+                    DepartmentName = x.Name,
+                    ManagerFullName = x.Manager.FirstName + " " + x.Manager.LastName,
+                    Employees = x.Employees.Select(e => new
+                    {
+                        EmployeeFullName = e.FirstName + " " + e.LastName,
+                        JobTitle = e.JobTitle
+
+                    })
+                    .OrderBy(x => x.EmployeeFullName)
+                    .ToList()
+
+                })
+                .ToList();
+
+            foreach (var department in departments)
+            {
+                sb.AppendLine($"{department.DepartmentName} {department.ManagerFullName}");
+
+                foreach (var employee in department.Employees)
+                {
+                    sb.AppendLine($"{employee.EmployeeFullName} {employee.JobTitle}");
+                }
+
+            }
+
+
+
+            return sb.ToString();
         }
         public static string GetEmployee147(SoftUniContext context)
         {
@@ -25,7 +66,8 @@ namespace SoftUni
 
             str.AppendLine($"{employee147.FirstName} {employee147.LastName} - {employee147.JobTitle}");
 
-            var projects = employee147.EmployeesProjects
+            var projects = context.EmployeesProjects
+                .Where(x => x.EmployeeId == 147)
                 .Select(x => new
                 {
                     ProjectName = x.Project.Name
