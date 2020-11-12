@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using SoftUni.Data;
 using SoftUni.Models;
 using System;
@@ -11,13 +12,77 @@ namespace SoftUni
     {
         public static void Main(string[] args)
         {
+
+
+
             using (var softUniContext = new SoftUniContext())
             {
-                Console.WriteLine(GetDepartmentsWithMoreThan5Employees(softUniContext));
-                
+                Console.WriteLine(DeleteProjectById(softUniContext));
+
             }
 
 
+        }
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var project = context.Projects
+                .FirstOrDefault(x => x.ProjectId == 2);
+
+            var employeeProjects = context.EmployeesProjects
+                .Where(x => x.ProjectId == 2);
+
+            context.EmployeesProjects.RemoveRange(employeeProjects);
+
+            //foreach (var employeeProject in employeeProjects)
+            //{
+            //    context.EmployeesProjects.Remove(employeeProject);
+            //}
+
+            context.Projects.Remove(project);
+
+            context.SaveChanges();
+
+            var projects = context.Projects
+                .Select(x=>new { Name=x.Name})
+                .Take(10)
+                .ToList();
+
+            foreach (var proj in projects)
+            {
+                sb.AppendLine($"{proj.Name}");
+            }
+
+
+            return sb.ToString().TrimEnd();
+
+        }
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
+        {
+
+            StringBuilder sb = new StringBuilder();
+
+            var employees = context.Employees
+                .Where(x => EF.Functions.Like(x.FirstName, "sa%"))
+                .Select(x => new
+                {
+                    FirstName = x.FirstName,
+                    LastName = x.LastName,
+                    JobTitle = x.JobTitle,
+                    Salary = x.Salary
+
+                })
+                .OrderBy(x => x.FirstName)
+                .ThenBy(x => x.LastName)
+                .ToList();
+
+            foreach (var employee in employees)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle} - ({employee.Salary:f2})");
+            }
+
+            return sb.ToString();
         }
 
         public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
