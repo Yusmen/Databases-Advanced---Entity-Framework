@@ -1,0 +1,15 @@
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.deps.json
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.dll
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.AssemblyInfoInputs.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.AssemblyInfo.cs
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.Models.dll
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.csprojAssemblyReference.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.pdb
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.Models.pdb
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.csproj.CopyComplete
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.dll
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.pdb
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.runtimeconfig.json
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\bin\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.runtimeconfig.dev.json
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.csproj.CoreCompileInputs.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\CodeFirst\P01_HospitalDatabase.Data\obj\Debug\netcoreapp3.1\P01_HospitalDatabase.Data.genruntimeconfig.cache
