@@ -1,0 +1,5 @@
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.deps.json
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.dll
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.AssemblyInfoInputs.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.AssemblyInfo.cs
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.csprojAssemblyReference.cache
