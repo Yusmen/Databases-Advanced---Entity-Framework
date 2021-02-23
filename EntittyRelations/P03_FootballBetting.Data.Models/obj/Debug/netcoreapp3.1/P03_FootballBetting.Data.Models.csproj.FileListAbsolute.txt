@@ -1,0 +1,9 @@
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.deps.json
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.dll
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.pdb
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csprojAssemblyReference.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.AssemblyInfo.cs
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.dll
+C:\Users\Yusmen\Desktop\C#\Databases Advanced\Zadachi_Resheniq\AllSolutionsOfProblems\EntittyRelations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.pdb
