@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9J1ZSx0DmHpctqXusSjrBGf1XWh5b/i7Yzw4XaG+nnk5suCcqN/r2sJiZyZr6zfrNUoecgoDicsv9U+e4gKR8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yusmen\\Desktop\\C#\\Databases Advanced\\Zadachi_Resheniq\\Databases-Advanced---Entity-Framework\\RealEstates\\RealEstates.Services\\RealEstates.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yusmen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Yusmen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
