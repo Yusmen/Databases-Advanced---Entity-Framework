@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstates.ConsoleApplication", "RealEstates.ConsoleApplication\RealEstates.ConsoleApplication.csproj", "{038F0C7E-605F-4BE7-ABDC-18D61669D3E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealEstates.Importer", "RealEstates.Importer\RealEstates.Importer.csproj", "{CA0E866B-9007-46CB-A778-DB2F6A402C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstates.Importer", "RealEstates.Importer\RealEstates.Importer.csproj", "{CA0E866B-9007-46CB-A778-DB2F6A402C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealEstates.Services", "RealEstates.Services\RealEstates.Services.csproj", "{CEEF7383-503C-4370-8E7D-B70B6EC6568B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstates.Services", "RealEstates.Services\RealEstates.Services.csproj", "{CEEF7383-503C-4370-8E7D-B70B6EC6568B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealEstates.Models", "RealEstates.Models\RealEstates.Models.csproj", "{F2A0ACD3-1E49-4366-805A-17927BF7D297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstates.Models", "RealEstates.Models\RealEstates.Models.csproj", "{F2A0ACD3-1E49-4366-805A-17927BF7D297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealEstates.Data", "RealEstates.Data\RealEstates.Data.csproj", "{E1639CCE-C845-496A-8C5A-8F446733F0A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstates.Data", "RealEstates.Data\RealEstates.Data.csproj", "{E1639CCE-C845-496A-8C5A-8F446733F0A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstates.ConsoleAppication", "RealEstates.ConsoleAppication\RealEstates.ConsoleAppication.csproj", "{A748BBDE-C8F9-4C1B-B8EC-15A3FC94ADD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{038F0C7E-605F-4BE7-ABDC-18D61669D3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{038F0C7E-605F-4BE7-ABDC-18D61669D3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{038F0C7E-605F-4BE7-ABDC-18D61669D3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{038F0C7E-605F-4BE7-ABDC-18D61669D3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA0E866B-9007-46CB-A778-DB2F6A402C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA0E866B-9007-46CB-A778-DB2F6A402C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA0E866B-9007-46CB-A778-DB2F6A402C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{E1639CCE-C845-496A-8C5A-8F446733F0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1639CCE-C845-496A-8C5A-8F446733F0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1639CCE-C845-496A-8C5A-8F446733F0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A748BBDE-C8F9-4C1B-B8EC-15A3FC94ADD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A748BBDE-C8F9-4C1B-B8EC-15A3FC94ADD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A748BBDE-C8F9-4C1B-B8EC-15A3FC94ADD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A748BBDE-C8F9-4C1B-B8EC-15A3FC94ADD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
