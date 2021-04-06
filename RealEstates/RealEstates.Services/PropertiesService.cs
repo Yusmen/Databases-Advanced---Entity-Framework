@@ -21,6 +21,11 @@ namespace RealEstates.Services
 
         public void Create(int size, int floor, int maxFloors, string district, string propertyType, string buildingType, int? year, int price)
         {
+            if (district == null)
+            {
+                throw new ArgumentNullException(nameof(district));
+                     
+            }
             var property = new RealEstateProperty
             {
                 Size = size,
@@ -103,7 +108,7 @@ namespace RealEstates.Services
             return x => new PropertyViewModel
             {
                 Price = x.Price,
-                Floor = (x.Floor ?? 0) + "/" + (x.TotalNumberOfFloors ?? 0),
+                Floor = (x.Floor ?? 0).ToString() + "/" + (x.TotalNumberOfFloors ?? 0).ToString(),
                 Size = x.Size,
                 Year = x.Year,
                 BuildingType = x.BuildingType.Name,

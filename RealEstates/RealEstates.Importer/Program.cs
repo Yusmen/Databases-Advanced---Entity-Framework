@@ -12,6 +12,7 @@ namespace RealEstates.Importer
     {
         static void Main(string[] args)
         {
+            
             var json = File.ReadAllText("imot.bg-raw-data-2020-07-23.json");
 
             var properties = JsonSerializer.Deserialize<IEnumerable<JsonProperty>>(json);
@@ -21,16 +22,24 @@ namespace RealEstates.Importer
 
             foreach (var property in properties.Where(x => x.Price > 1000))
             {
-                propertiesService.Create(
-                    property.Size,
-                    property.Floor,
-                    property.TotalFloors,
-                    property.District,
-                    property.Type,
-                    property.BuildingType,
-                    property.Year,
-                    property.Price
-                    );
+                try
+                {
+                   propertiesService.Create(
+                   property.Size,
+                   property.Floor,
+                   property.TotalFloors,
+                   property.District,
+                   property.Type,
+                   property.BuildingType,
+                   property.Year,
+                   property.Price);
+                }
+                catch 
+                {
+
+                   
+                }
+               
             }
         }
     }
