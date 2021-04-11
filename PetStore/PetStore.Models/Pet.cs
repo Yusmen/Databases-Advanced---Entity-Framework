@@ -1,4 +1,5 @@
-﻿using PetStore.Models.Enumerations;
+﻿using PetStore.Common;
+using PetStore.Models.Enumerations;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -15,23 +16,24 @@ namespace PetStore.Models
         [Key]
         public string Id { get; set; }
         [Required]
-        [MinLength(3)]
+        [MinLength(GlobalConstants.UsernameMinLength)]
         public string Name { get; set; }
 
         public Gender MyProperty { get; set; }
-
+        [Range(0, 200)]
         public byte Age { get; set; }
         [Required]
-        [ForeignKey("Breed")]
+        [ForeignKey(nameof(Breed))]
         public int BreedId { get; set; }
         public virtual Breed Breed { get; set; }
 
         public bool IsSold { get; set; }
 
+        [Range(0, Double.MaxValue)]
         public decimal Price { get; set; }
 
         [Required]
-        [ForeignKey("Client")]
+        [ForeignKey(nameof(Client))]
         public string ClientId { get; set; }
 
         public virtual Client Client { get; set; }
