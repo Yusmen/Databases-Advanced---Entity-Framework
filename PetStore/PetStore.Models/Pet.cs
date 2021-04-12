@@ -20,7 +20,7 @@ namespace PetStore.Models
         public string Name { get; set; }
 
         public Gender MyProperty { get; set; }
-        [Range(0, 200)]
+        [Range(GlobalConstants.PetMinAge, GlobalConstants.PetMaxAge)]
         public byte Age { get; set; }
         [Required]
         [ForeignKey(nameof(Breed))]
@@ -29,7 +29,7 @@ namespace PetStore.Models
 
         public bool IsSold { get; set; }
 
-        [Range(0, Double.MaxValue)]
+        [Range(GlobalConstants.PetMinPrice, Double.MaxValue)]
         public decimal Price { get; set; }
 
         [Required]
