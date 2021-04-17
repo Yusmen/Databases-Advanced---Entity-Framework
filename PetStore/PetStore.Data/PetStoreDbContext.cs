@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PetStore.Common;
+using PetStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -19,6 +20,17 @@ namespace PetStore.Data
         {
 
         }
+
+        public DbSet<Breed> Breeds { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<ClientProduct> ClientProducts { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Pet> Pets { get; set; }
+
+        //TODO:Name changed
+        public DbSet<Product> Products { get; set; }
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

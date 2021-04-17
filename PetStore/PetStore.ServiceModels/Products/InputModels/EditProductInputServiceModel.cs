@@ -5,9 +5,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PetStore.ServiceModels.Products.InputModels
 {
-    public class AddProductInputServiceModel
+    public class EditProductInputServiceModel
     {
-
         public string ProductType { get; set; }
 
         [Required]
@@ -17,7 +16,6 @@ namespace PetStore.ServiceModels.Products.InputModels
 
         [Range(GlobalConstants.ProductMinPrice, Double.MaxValue)]
         public decimal Price { get; set; }
-
 
     }
 }
