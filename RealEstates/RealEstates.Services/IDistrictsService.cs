@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace RealEstates.Services
+namespace RealEstates.Services.Models
 {
     public interface IDistrictsService
     {
