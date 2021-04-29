@@ -5,7 +5,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome Yusmen @DateTime.Now</h1>
+    <h1 class="display-4">Welcome Yusmen</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
@@ -20,7 +20,7 @@
 
     </tr>
 
-    @foreach (DistrictViewModel district in this.Model)
+    @foreach (DistrictViewModel district in this.Model.Where(x => x.PropertiesCount >= 20))
     {
         <tr>
             <td>@district.Name</td>
