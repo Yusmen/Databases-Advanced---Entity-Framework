@@ -14,6 +14,8 @@ namespace PetStore.Services.Contracts
 
         ICollection<ListAllProductsByProductTypeServiceModel> ListAllByProductType(string type);
 
+        ProductDetailsServiceModel GetById(string id);
+
         ICollection<ListAllProductsServiceModel> GetAll();
 
         ICollection<ListAllProductByNameServiceModel> SearchByName(string searchStr, bool caseSensitive);

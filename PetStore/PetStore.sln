@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore.Services", "PetSto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore.ServiceModels", "PetStore.ServiceModels\PetStore.ServiceModels.csproj", "{E2B49815-B27E-48BC-97B7-15539197A025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Mapping", "PetStore.Mapping\PetStore.Mapping.csproj", "{5958D5E1-257D-4B99-BB53-37C5EB54A508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore.Mapping", "PetStore.Mapping\PetStore.Mapping.csproj", "{5958D5E1-257D-4B99-BB53-37C5EB54A508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Web", "PetStore.Web\PetStore.Web.csproj", "{61821990-BEB2-4754-99E1-3B47571EF2F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.ViewModels", "PetStore.ViewModels\PetStore.ViewModels.csproj", "{5B733502-C958-4480-BBBA-562410623CF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{5958D5E1-257D-4B99-BB53-37C5EB54A508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5958D5E1-257D-4B99-BB53-37C5EB54A508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5958D5E1-257D-4B99-BB53-37C5EB54A508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61821990-BEB2-4754-99E1-3B47571EF2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61821990-BEB2-4754-99E1-3B47571EF2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61821990-BEB2-4754-99E1-3B47571EF2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61821990-BEB2-4754-99E1-3B47571EF2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B733502-C958-4480-BBBA-562410623CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B733502-C958-4480-BBBA-562410623CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B733502-C958-4480-BBBA-562410623CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B733502-C958-4480-BBBA-562410623CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -167,5 +167,21 @@ namespace PetStore.Services
                 throw new ArgumentException(ExceptionMessages.InvalidProductType);
             }
         }
+
+        public ProductDetailsServiceModel GetById(string id)
+        {
+            Product product = this.dbContext
+                .Products
+                .FirstOrDefault(p => p.Id == id);
+            if (product == null)
+            {
+                throw new ArgumentException(ExceptionMessages.ProductNotFound);
+            }
+
+            ProductDetailsServiceModel serviceModel = this.mapper
+                .Map<ProductDetailsServiceModel>(product);
+
+            return serviceModel;
+        }
     }
 }
